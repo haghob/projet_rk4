@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.16)  31 OCT 2025 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.16)  31 OCT 2025 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -260,41 +260,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-1.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<graph.pdf, id=19, 499.24329pt x 393.98067pt>
+<graph.pdf, id=9, 499.24329pt x 393.98067pt>
 File: graph.pdf Graphic file (type pdf)
 <use graph.pdf>
-Package pdftex.def Info: graph.pdf  used on input line 60.
+Package pdftex.def Info: graph.pdf  used on input line 61.
 (pdftex.def)             Requested size: 312.00119pt x 246.22528pt.
- [2 <./graph.pdf>]
-[3]
+ [2] [3 <./graph.pdf>]
 <graph_euler.pdf, id=74, 499.24329pt x 393.98067pt>
 File: graph_euler.pdf Graphic file (type pdf)
 <use graph_euler.pdf>
-Package pdftex.def Info: graph_euler.pdf  used on input line 131.
+Package pdftex.def Info: graph_euler.pdf  used on input line 132.
 (pdftex.def)             Requested size: 312.00119pt x 246.22528pt.
- [4 <./graph_euler.pdf>] [5] (./rapport.bbl
-Underfull \hbox (badness 4765) in paragraph at lines 14--17
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./graph_euler.pdf>] (./rapport.bbl
+Underfull \hbox (badness 4765) in paragraph at lines 20--23
 []\T1/cmr/m/n/12 Matplotlib De-ve-lo-pers.  Mat-plot-lib do-cu-men-ta-tion.  $\
 T1/cmtt/m/n/12 https : / /
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 24--28
+Underfull \hbox (badness 1436) in paragraph at lines 30--34
 \T1/cmr/m/n/12 ving.  $\T1/cmtt/m/n/12 https : / / docs . scipy . org / doc / s
 cipy / reference / integrate .
  []
 
 ) [6] (./rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 4981 strings out of 480218
- 75054 string characters out of 5894882
+ 4983 strings out of 480218
+ 75073 string characters out of 5894882
  378886 words of memory out of 5000000
- 22885 multiletter control sequences out of 15000+600000
+ 22887 multiletter control sequences out of 15000+600000
  483554 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,13n,62p,1062b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -303,8 +306,8 @@ nappen/ec/ecti1200.600pk> </home/haghob/.texlive2021/texmf-var/fonts/pk/ljfour/
 jknappen/ec/ecrm0800.600pk> </home/haghob/.texlive2021/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/eccc1200.600pk> </home/haghob/.texlive2021/texmf-var/fonts/pk/ljf
 our/jknappen/ec/ectt1200.600pk> </home/haghob/.texlive2021/texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecrm1200.600pk> </home/haghob/.texlive2021/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecbx1728.600pk> </home/haghob/.texlive2021/texmf-var/fonts/
+jfour/jknappen/ec/ecbx1728.600pk> </home/haghob/.texlive2021/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecrm1200.600pk> </home/haghob/.texlive2021/texmf-var/fonts/
 pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/haghob/.texlive2021/texmf-var/font
 s/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
@@ -315,9 +318,9 @@ cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on rapport.pdf (6 pages, 193453 bytes).
+Output written on rapport.pdf (6 pages, 195606 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
+ 433 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)

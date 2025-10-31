@@ -5,6 +5,12 @@ J.~C. Butcher.
 \newblock {\em Numerical Methods for Ordinary Differential Equations}.
 \newblock Wiley, 3 edition, 2016.
 
+\bibitem{dormand}
+J.~R. Dormand.
+\newblock {\em Numerical Methods for Differential Equations: A Computational
+  Approach}.
+\newblock CRC Press, 1980.
+
 \bibitem{hairer}
 E.~Hairer, S.~P. N{\o}rsett, and G.~Wanner.
 \newblock {\em Solving Ordinary Differential Equations I: Nonstiff Problems}.
@@ -25,5 +31,10 @@ E.~Hairer, S.~P. N{\o}rsett, and G.~Wanner.
 \newblock Scipy documentation: Differential equation solving.
 \newblock \url{https://docs.scipy.org/doc/scipy/reference/integrate.html},
   2023.
+
+\bibitem{verhulst}
+P.-F. Verhulst.
+\newblock Notice sur la loi que la population poursuit dans son accroissement.
+\newblock {\em Correspondance math{\'e}matique et physique}, 10:113--121, 1838.
 
 \end{thebibliography}

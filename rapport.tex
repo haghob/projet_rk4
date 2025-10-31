@@ -19,17 +19,18 @@
 \renewcommand{\refname}{Références}
 
 \title{Résolution numérique d'une EDO par la méthode de Runge-Kutta d'ordre 4}
-\author{Hana Ghorbel, Ala Belhasen Chamam, Rania Ben Barka}
+\author{Hana Ghorbel, Ala Chammam, Rania Ben Barka}
 \date{\today}
 
 \begin{document}
 
 \maketitle
+\newpage
 
 \section{Introduction}
 Dans le cadre du cours Python, ce projet porte sur la méthode de Runge-Kutta d'ordre 4 (RK4), une technique numérique pour approximer les solutions d'équations différentielles ordinaires (EDO) du premier ordre de la forme $y' = f(t, y)$ avec $y(t_0) = y_0$.
 
-Nous étudions l'EDO logistique $y' = y(1 - y)$, $y(0) = 0.5$, sur $[0, 5]$. Cette équation modélise une croissance sigmoidale (ex. : propagation d'une épidémie). La solution exacte est $y(t) = \frac{1}{1 + e^{-t}}$.
+Nous étudions l'EDO logistique $y' = y(1 - y)$, $y(0) = 0.5$, sur $[0, 5]$. Cette équation modélise une croissance sigmoidale (ex. : propagation d'une épidémie) \cite{verhulst}. La solution exacte est $y(t) = \frac{1}{1 + e^{-t}}$.
 
 L'objectif est d'implémenter RK4 en Python, de comparer la solution numérique à l'exacte, et d'évaluer la précision.
 
@@ -109,7 +110,7 @@ Ces résultats illustrent l’excellente stabilité et la précision de la méth
 
 Comparaison avec la méthode d’Euler
 
-Pour mettre en évidence les avantages de RK4, nous comparons ci-dessous les erreurs obtenues avec la méthode d’Euler explicite pour le même problème.
+Pour mettre en évidence les avantages de RK4, nous comparons ci-dessous les erreurs obtenues avec la méthode d’Euler explicite pour le même problème \cite{dormand}.
 
 \begin{table}[h]
 \centering
