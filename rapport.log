@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.16)  31 OCT 2025 21:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.16)  31 OCT 2025 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -296,7 +296,7 @@ cipy / reference / integrate .
 Here is how much of TeX's memory you used:
  4983 strings out of 480218
  75073 string characters out of 5894882
- 378886 words of memory out of 5000000
+ 378856 words of memory out of 5000000
  22887 multiletter control sequences out of 15000+600000
  483554 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -318,9 +318,9 @@ cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on rapport.pdf (6 pages, 195606 bytes).
+Output written on rapport.pdf (6 pages, 192937 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
+ 425 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
