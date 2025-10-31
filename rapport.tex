@@ -6,9 +6,20 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{url}
+\usepackage{titlesec}
+
+
+\titleformat{\section}
+{\normalfont\Large\bfseries}
+{\thesection -}
+{1em}
+{}
+
+
+\renewcommand{\refname}{Références}
 
 \title{Résolution numérique d'une EDO par la méthode de Runge-Kutta d'ordre 4}
-\author{Hana Ghorbel, Ala Belhasen Chamam, Rania Ben Barka}
+\author{Hana GHORBEL, Ala Belhasen Chamam, Rania Ben Barka}
 \date{\today}
 
 \begin{document}
@@ -71,14 +82,15 @@ $t$ & $y_{\text{exact}}(t)$ & $y_{\text{RK4}}(t)$ & Erreur absolue \\
 5.0 & 0.993307 & 0.993307 & 0.000000 \\
 \bottomrule
 \end{tabular}
-\caption{Comparaison à $h=0.1$.}
+\caption{TABLEAU 1 - Comparaison à $h=0.1$.}
 \end{table}
+
+\vspace{1em}
 
 \section{Conclusion}
 RK4 offre une excellente précision pour cette EDO non linéaire, avec une erreur négligeable pour $h=0.1$. Une réduction de $h$ (ex. : $h=0.05$) diviserait l'erreur par $\approx 16$ (cohérent avec l'ordre 4). Cette méthode est robuste et facile à implémenter, idéale pour des simulations simples.
 
 \newpage
-\section*{Références}
 \bibliographystyle{plain}
 \bibliography{refs}
 
