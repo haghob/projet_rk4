@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.16)  31 OCT 2025 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.16)  31 OCT 2025 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,13 +259,13 @@ File: graph.pdf Graphic file (type pdf)
 Package pdftex.def Info: graph.pdf  used on input line 49.
 (pdftex.def)             Requested size: 312.00119pt x 246.22528pt.
  [2 <./graph.pdf>]
-(./rapport.bbl
+[3] (./rapport.bbl
 Underfull \hbox (badness 4765) in paragraph at lines 14--17
 []\T1/cmr/m/n/12 Matplotlib De-ve-lo-pers.  Mat-plot-lib do-cu-men-ta-tion.  $\
 T1/cmtt/m/n/12 https : / /
  []
 
-[3]
+
 Underfull \hbox (badness 1436) in paragraph at lines 24--28
 \T1/cmr/m/n/12 ving.  $\T1/cmtt/m/n/12 https : / / docs . scipy . org / doc / s
 cipy / reference / integrate .
@@ -275,7 +275,7 @@ cipy / reference / integrate .
 Here is how much of TeX's memory you used:
  4674 strings out of 480218
  70825 string characters out of 5894882
- 370509 words of memory out of 5000000
+ 369494 words of memory out of 5000000
  22583 multiletter control sequences out of 15000+600000
  483554 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -297,9 +297,9 @@ cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on rapport.pdf (4 pages, 176426 bytes).
+Output written on rapport.pdf (4 pages, 173866 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
+ 366 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
