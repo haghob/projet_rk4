@@ -1,12 +1,14 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[french]{babel}
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{url}
 
 \title{Projet MRMM1 : Résolution numérique d'une EDO par la méthode de Runge-Kutta d'ordre 4}
-\author{Hana GHORBEL, Ala, Rania}
+\author{Hana GHORBEL, Ala Belhasen Chamam, Rania Ben Barka}
 \date{\today}
 
 \begin{document}
@@ -21,7 +23,7 @@ Nous étudions l'EDO logistique $y' = y(1 - y)$, $y(0) = 0.5$, sur $[0, 5]$. Cet
 L'objectif est d'implémenter RK4 en Python, de comparer la solution numérique à l'exacte, et d'évaluer la précision.
 
 \section{La méthode de Runge-Kutta d'ordre 4}
-RK4 est une méthode explicite d'ordre 4, avec erreur locale $\mathcal{O}(h^5)$. Pour un pas $h$, on calcule :
+RK4 est une méthode explicite d'ordre 4, avec erreur locale $\mathcal{O}(h^5)$ \cite{butcher}. Pour un pas $h$, on calcule :
 \begin{align*}
 k_1 &= f(t_n, y_n), \\
 k_2 &= f\left(t_n + \frac{h}{2}, y_n + \frac{h}{2} k_1\right), \\
@@ -32,22 +34,24 @@ puis
 \[
 y_{n+1} = y_n + \frac{h}{6} (k_1 + 2k_2 + 2k_3 + k_4).
 \]
-Cette formule provient d'une quadrature de Simpson appliquée à la dérivée.
+Cette formule provient d'une quadrature de Simpson appliquée à la dérivée \cite{hairer}.
 
 \section{Implémentation en Python}
-Le code utilise NumPy pour les tableaux et Matplotlib pour le tracé. La fonction \texttt{rk4\_step} effectue un pas, et \texttt{solve\_rk4} itère sur l'intervalle avec $h = 0.1$ (50 pas). La solution exacte est tracée pour comparaison.
+Le code utilise NumPy pour les tableaux et Matplotlib pour le tracé \cite{numpy,matplotlib}. La fonction \texttt{rk4\_step} effectue un pas, et \texttt{solve\_rk4} itère sur l'intervalle avec $h = 0.1$ (50 pas). La solution exacte est tracée pour comparaison.
 
-Le code est simple et modulaire, sans dépendances externes complexes.
+Le code est simple et modulaire, sans dépendances externes complexes. Pour une implémentation plus avancée, on pourrait utiliser SciPy \cite{scipy}.
 
 \section{Résultats}
 La figure~\ref{fig:graph} montre la superposition des courbes. L'approximation RK4 est très proche de l'exacte, confirmant l'ordre 4.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{graph.pdf}  % Exporte ton graphe Python en PDF ici
+\includegraphics[width=0.8\textwidth]{graph.pdf}
 \caption{Solution numérique (RK4, rouge pointillé) vs. exacte (bleu continu).}
 \label{fig:graph}
 \end{figure}
+
+Le graphique~\ref{fig:graph} illustre la solution de l'équation différentielle ordinaire logistique $y' = y(1 - y)$ avec condition initiale $y(0) = 0.5$, sur l'intervalle temporel $[0, 5]$. La courbe bleue continue représente la solution exacte analytique, donnée par $y(t) = \frac{1}{1 + e^{-t}}$, qui suit une croissance sigmoidale caractéristique : départ lent près de $y=0.5$, accélération vers $y=1$, puis asymptote stable à $y=1$. La courbe rouge pointillée correspond à l'approximation numérique obtenue par la méthode de Runge-Kutta d'ordre 4 (RK4) avec un pas $h = 0.1$. Les deux courbes sont pratiquement indistinguables à l'œil nu, soulignant l'excellente précision de la méthode (ordre 4). À $t=5$, les valeurs finales sont $y(5) \approx 0.993307$ pour RK4 et exactement $0.993307$ pour la solution analytique, confirmant une erreur absolue maximale inférieure à $10^{-5}$. Ce résultat valide l'implémentation et met en évidence la robustesse de RK4 pour des EDO non linéaires comme celle-ci.
 
 Pour quantifier l'erreur, nous calculons l'erreur absolue maximale :
 \[
@@ -74,6 +78,6 @@ $t$ & $y_{\text{exact}}(t)$ & $y_{\text{RK4}}(t)$ & Erreur absolue \\
 RK4 offre une excellente précision pour cette EDO non linéaire, avec une erreur négligeable pour $h=0.1$. Une réduction de $h$ (ex. : $h=0.05$) diviserait l'erreur par $\approx 16$ (cohérent avec l'ordre 4). Cette méthode est robuste et facile à implémenter, idéale pour des simulations simples.
 
 \bibliographystyle{plain}
-\bibliography{references}  % Optionnel : ajoute si tu as des refs
+\bibliography{refs}
 
 \end{document}

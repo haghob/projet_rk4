@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{butcher}
+J.~C. Butcher.
+\newblock {\em Numerical Methods for Ordinary Differential Equations}.
+\newblock Wiley, 3 edition, 2016.
+
+\bibitem{hairer}
+E.~Hairer, S.~P. N{\o}rsett, and G.~Wanner.
+\newblock {\em Solving Ordinary Differential Equations I: Nonstiff Problems}.
+\newblock Springer, 1993.
+
+\bibitem{matplotlib}
+{Matplotlib Developers}.
+\newblock Matplotlib documentation.
+\newblock \url{https://matplotlib.org/stable/contents.html}, 2023.
+
+\bibitem{numpy}
+{NumPy Developers}.
+\newblock Numpy documentation.
+\newblock \url{https://numpy.org/doc/}, 2023.
+
+\bibitem{scipy}
+{SciPy Developers}.
+\newblock Scipy documentation: Differential equation solving.
+\newblock \url{https://docs.scipy.org/doc/scipy/reference/integrate.html},
+  2023.
+
+\end{thebibliography}
